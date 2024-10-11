@@ -72,6 +72,8 @@ The architecture supports the following features:
 
 # Future Extensions
 
+The entire codebase could be rewritten in TypeScript, taking advantage of its type safety and maintainability.
+
 - For RESTful API:
 
   - New endpoints can be added to extend functionality, such as implementing authentication using JWT. CORS can also be
