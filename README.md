@@ -82,6 +82,8 @@ The entire codebase could be rewritten in TypeScript, taking advantage of its ty
   - Integration with databases can be enhanced to support data persistence. Currently, the RESTful API stores data in
     memory using arrays; however, there are plans to transition to using a database for this purpose in the future.
 
+  - Currently, this is a single-threaded HTTP server, but it should be changed to a multithreaded server.
+
 - For WebSocket Server:
 
   - Channels or rooms can be implemented to allow specific groups of clients to communicate with each other, enhancing
